@@ -1,0 +1,12 @@
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\TamTamBotAPI.exe.config
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\TamTamBotAPI.exe
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\TamTamBotAPI.pdb
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\Newtonsoft.Json.dll
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\System.Net.Http.Formatting.dll
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\Newtonsoft.Json.xml
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\bin\Debug\System.Net.Http.Formatting.xml
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\obj\Debug\TamTamBotAPI.csprojAssemblyReference.cache
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\obj\Debug\TamTamBotAPI.csproj.CoreCompileInputs.cache
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\obj\Debug\TamTamBotAPI.csproj.CopyComplete
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\obj\Debug\TamTamBotAPI.exe
+D:\MyDocs\VisualStudioProjects\TamTamBotAPI\TamTamBotAPI\obj\Debug\TamTamBotAPI.pdb
