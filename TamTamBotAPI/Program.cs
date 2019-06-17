@@ -10,38 +10,31 @@ namespace TamTamBotAPI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("[Bot-Program for sending messages in the messanger TamTam]\r\n[Input data]:");
-
-            bool exit = false;
-            while (!exit)
+            try
             {
-                //Входные данные
-                Console.Write("Token: ");
-                string token = Console.ReadLine();
-                Console.Write("Id_chat: ");
-                string id_chat = Console.ReadLine();
-                Console.Write("Message: ");
-                string message = Console.ReadLine();
-                
-                //Создание класса для отправки сообщения
+                //Получаем переменные из командной строки для нашего процесса
+                String[] arguments = Environment.GetCommandLineArgs();
+                //присвеиваем определённые параметры определённым переменным
+                string token = arguments[1];
+                string id_chat = arguments[2];
+                string message = arguments[3];
+                //Создаём класс для отправки сообщений
                 SenderClass send = new SenderClass(token, id_chat, message);
                 send.Post().GetAwaiter().GetResult();
-
-                //Вывод результата на экран
+                //Проверяем отправили ли сообщение и выводим результат на экран
                 string ans = null;
                 ans = "Code: " + send.answer + " Message: ";
                 if (send.answer == 0) ans += "Ok";
-                else ans += "Error";
-
+                else ans = "1";
                 Console.WriteLine(ans);
-
-                //Запрос на повторную процедуру
-                Console.WriteLine("\r\nRepeat? (y)/(n): ");
-                string rep = null;
-                while (rep != "y" && rep != "n")
-                    rep = Console.ReadLine();
-
-                if (rep == "n") exit = true;
+            }
+            catch
+            {
+                Console.WriteLine("1");
+            }
+            finally
+            {
+                Console.ReadLine();
             }
         }
     }
